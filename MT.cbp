@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MT" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/MT" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="`sdl-config --cflags`" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="`sdl-config --libs`" />
+		</Linker>
+		<Unit filename="cb.bmp" />
+		<Unit filename="../Magical Trevor (stable backup)/CAnimation.cpp" />
+		<Unit filename="../Magical Trevor (stable backup)/CAnimation.h" />
+		<Unit filename="../Magical Trevor (stable backup)/CApp.cpp" />
+		<Unit filename="../Magical Trevor (stable backup)/CApp.h" />
+		<Unit filename="../Magical Trevor (stable backup)/CApp_OnCleanup.cpp" />
+		<Unit filename="../Magical Trevor (stable backup)/CApp_OnEvent.cpp" />
+		<Unit filename="../Magical Trevor (stable backup)/CApp_OnInit.cpp" />
+		<Unit filename="../Magical Trevor (stable backup)/CApp_OnLoop.cpp" />
+		<Unit filename="../Magical Trevor (stable backup)/CApp_OnRender.cpp" />
+		<Unit filename="../Magical Trevor (stable backup)/CArea.cpp" />
+		<Unit filename="../Magical Trevor (stable backup)/CArea.h" />
+		<Unit filename="../Magical Trevor (stable backup)/CCamera.cpp" />
+		<Unit filename="../Magical Trevor (stable backup)/CCamera.h" />
+		<Unit filename="../Magical Trevor (stable backup)/CEntity.cpp" />
+		<Unit filename="../Magical Trevor (stable backup)/CEntity.h" />
+		<Unit filename="../Magical Trevor (stable backup)/CEntityCol.cpp" />
+		<Unit filename="../Magical Trevor (stable backup)/CEvent.cpp" />
+		<Unit filename="../Magical Trevor (stable backup)/CEvent.h" />
+		<Unit filename="../Magical Trevor (stable backup)/CFPS.cpp" />
+		<Unit filename="../Magical Trevor (stable backup)/CFPS.h" />
+		<Unit filename="../Magical Trevor (stable backup)/CFirebolt.cpp" />
+		<Unit filename="../Magical Trevor (stable backup)/CFirebolt.h" />
+		<Unit filename="../Magical Trevor (stable backup)/CHealthBar.h" />
+		<Unit filename="../Magical Trevor (stable backup)/CMap.cpp" />
+		<Unit filename="../Magical Trevor (stable backup)/CMap.h" />
+		<Unit filename="../Magical Trevor (stable backup)/CMonster.cpp" />
+		<Unit filename="../Magical Trevor (stable backup)/CMonster.h" />
+		<Unit filename="../Magical Trevor (stable backup)/CPlayer.cpp" />
+		<Unit filename="../Magical Trevor (stable backup)/CPlayer.h" />
+		<Unit filename="../Magical Trevor (stable backup)/CSoundBank.cpp" />
+		<Unit filename="../Magical Trevor (stable backup)/CSoundBank.h" />
+		<Unit filename="../Magical Trevor (stable backup)/CSurface.cpp" />
+		<Unit filename="../Magical Trevor (stable backup)/CSurface.h" />
+		<Unit filename="../Magical Trevor (stable backup)/CTile.cpp" />
+		<Unit filename="../Magical Trevor (stable backup)/CTile.h" />
+		<Unit filename="../Magical Trevor (stable backup)/Define.h" />
+		<Unit filename="../Magical Trevor (stable backup)/MixBox.cpp" />
+		<Unit filename="../Magical Trevor (stable backup)/MixBox.h" />
+		<Unit filename="../Magical Trevor (stable backup)/menu.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

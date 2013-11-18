@@ -1,0 +1,144 @@
+# depslib dependency file v1.0
+1284289236 source:/home/petro/Documents/Magical Trevor (stable backup)/CAnimation.cpp
+	"CAnimation.h"
+
+1316688033 /home/petro/Documents/Magical Trevor (stable backup)/CAnimation.h
+	<SDL/SDL.h>
+
+1384812757 source:/home/petro/Documents/Magical Trevor (stable backup)/CApp.cpp
+	"CApp.h"
+
+1316688095 /home/petro/Documents/Magical Trevor (stable backup)/CApp.h
+	<SDL/SDL.h>
+	"Define.h"
+	"CFPS.h"
+	"CArea.h"
+	"CCamera.h"
+	"CEntity.h"
+	"CEvent.h"
+	"CSurface.h"
+	"CFirebolt.h"
+	"CPlayer.h"
+	"CMonster.h"
+
+1205583120 /home/petro/Documents/Magical Trevor (stable backup)/Define.h
+
+1316688095 /home/petro/Documents/Magical Trevor (stable backup)/CFPS.h
+	<SDL/SDL.h>
+
+1225166504 /home/petro/Documents/Magical Trevor (stable backup)/CArea.h
+	"CMap.h"
+
+1316688095 /home/petro/Documents/Magical Trevor (stable backup)/CMap.h
+	<SDL/SDL.h>
+	<vector>
+	"CTile.h"
+	"CSurface.h"
+
+1205580196 /home/petro/Documents/Magical Trevor (stable backup)/CTile.h
+	"Define.h"
+
+1316688095 /home/petro/Documents/Magical Trevor (stable backup)/CSurface.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+
+1316688095 /home/petro/Documents/Magical Trevor (stable backup)/CCamera.h
+	<SDL/SDL.h>
+	"Define.h"
+
+1316688095 /home/petro/Documents/Magical Trevor (stable backup)/CEntity.h
+	<SDL/SDL.h>
+	<vector>
+	"CArea.h"
+	"CAnimation.h"
+	"CCamera.h"
+	"CFPS.h"
+	"CSurface.h"
+	"MixBox.h"
+
+1316688632 /home/petro/Documents/Magical Trevor (stable backup)/MixBox.h
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<vector>
+
+1316688095 /home/petro/Documents/Magical Trevor (stable backup)/CEvent.h
+	<SDL/SDL.h>
+
+1286791894 /home/petro/Documents/Magical Trevor (stable backup)/CFirebolt.h
+	"CEntity.h"
+	"MixBox.h"
+
+1290377836 /home/petro/Documents/Magical Trevor (stable backup)/CPlayer.h
+	"CEntity.h"
+
+1284406748 /home/petro/Documents/Magical Trevor (stable backup)/CMonster.h
+	"CEntity.h"
+
+1285680932 source:/home/petro/Documents/Magical Trevor (stable backup)/CApp_OnCleanup.cpp
+	"CApp.h"
+
+1287476414 source:/home/petro/Documents/Magical Trevor (stable backup)/CApp_OnEvent.cpp
+	"CApp.h"
+
+1290380986 source:/home/petro/Documents/Magical Trevor (stable backup)/CApp_OnInit.cpp
+	"CApp.h"
+
+1290380792 source:/home/petro/Documents/Magical Trevor (stable backup)/CApp_OnLoop.cpp
+	"CApp.h"
+
+1290378754 source:/home/petro/Documents/Magical Trevor (stable backup)/CApp_OnRender.cpp
+	"CApp.h"
+
+1285606150 source:/home/petro/Documents/Magical Trevor (stable backup)/CArea.cpp
+	"CArea.h"
+
+1225167062 source:/home/petro/Documents/Magical Trevor (stable backup)/CCamera.cpp
+	"CCamera.h"
+
+1287474260 source:/home/petro/Documents/Magical Trevor (stable backup)/CEntity.cpp
+	"CEntity.h"
+
+1248920272 source:/home/petro/Documents/Magical Trevor (stable backup)/CEntityCol.cpp
+	"CEntity.h"
+
+1287411152 source:/home/petro/Documents/Magical Trevor (stable backup)/CEvent.cpp
+	"CEvent.h"
+
+1213073964 source:/home/petro/Documents/Magical Trevor (stable backup)/CFPS.cpp
+	"CFPS.h"
+
+1290381028 source:/home/petro/Documents/Magical Trevor (stable backup)/CFirebolt.cpp
+	"CFirebolt.h"
+
+1285606040 source:/home/petro/Documents/Magical Trevor (stable backup)/CMap.cpp
+	"CMap.h"
+
+1286811868 source:/home/petro/Documents/Magical Trevor (stable backup)/CMonster.cpp
+	"CMonster.h"
+	"CFirebolt.h"
+
+1293466204 source:/home/petro/Documents/Magical Trevor (stable backup)/CPlayer.cpp
+	"CPlayer.h"
+	"CFirebolt.h"
+
+1384811836 source:/home/petro/Documents/Magical Trevor (stable backup)/CSoundBank.cpp
+	"CSoundBank.h"
+
+1316690412 /home/petro/Documents/Magical Trevor (stable backup)/CSoundBank.h
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<vector>
+
+1285606558 source:/home/petro/Documents/Magical Trevor (stable backup)/CSurface.cpp
+	"CSurface.h"
+
+1205552220 source:/home/petro/Documents/Magical Trevor (stable backup)/CTile.cpp
+	"CTile.h"
+
+1254059282 source:/home/petro/Documents/Magical Trevor (stable backup)/MixBox.cpp
+	"MixBox.h"
+	<cmath>
+
+1313259390 source:/home/petro/Documents/Magical Trevor (stable backup)/menu.cpp
+	"CApp.h"
+
